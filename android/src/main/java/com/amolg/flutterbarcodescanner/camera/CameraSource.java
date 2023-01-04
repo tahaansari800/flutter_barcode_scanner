@@ -192,7 +192,7 @@ public class CameraSource {
             if ((facing != CAMERA_FACING_BACK) && (facing != CAMERA_FACING_FRONT)) {
                 throw new IllegalArgumentException("Invalid camera: " + facing);
             }
-            mCameraSource.mFacing = facing;
+            mCameraSource.mFacing = CAMERA_FACING_FRONT;
             return this;
         }
 
